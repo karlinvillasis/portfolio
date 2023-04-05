@@ -1,0 +1,16 @@
+img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+h1, h2 {
+    font-family: "bd-supper", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
