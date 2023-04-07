@@ -1,16 +1,93 @@
-img-fluid {
-    max-width: 100%;
-    height: auto;
+
+
+/***** Tablet Styles *****/
+
+@media screen and (min-width: 768px) {
+    
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
 
 
-h1, h2 {
-    font-family: "bd-supper", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+/***** Desktop Styles *****/
+
+@media screen and (min-width: 1080px) {
+
+    /* Styling the hero image */
+    .banner {
+        position: relative;
+    }
+
+    /* Fixing the position of the arrow button */
+    
+    .down-button {
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+
+
+    img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    
+    h1, h2 {
+        font-family: "bd-supper", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    
+    .photo-image {
+        padding-left: 0;
+    }
+    
+    footer {
+        padding: 1.5rem;
+        margin-top: 2rem;
+    }
+    
+    footer .row div {
+        background-color: #FBD6EA;
+    }
+    
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer-links a {
+        text-decoration: none;
+        text-transform: capitalize;
+        color: #000;
+        margin-top: .5rem;
+    }
+    
+    .social-icons a {
+        text-decoration: none;
+    }
+    
+    footer h4 {
+        font-family: futura-pt, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    footer a {
+        font-family: futura-pt, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        
+    }
+
+    footer .copyright {
+        font-size: 7;
+    }
+
 }
