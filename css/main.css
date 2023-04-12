@@ -1,9 +1,169 @@
+body {
+    background-color: #FFFBFB;
+}
 
+/* Styling the search button */
+
+    .search-bar {
+        border: none;
+        border-radius: 0;
+        border-bottom: 2px solid #000;
+        background-color: #FFFBFB;
+    }
+
+    .search-btn {
+        background-color: #fff;
+        border: none;
+        padding: 0 1rem 0 0;
+    }
+
+    .search-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* Styling the hero image */
+    .banner {
+        position: relative;
+    }
+
+    /* Fixing the position of the arrow button */
+    
+    .down-button {
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        transform: translate(-50%, 40%);
+    }
+
+    .down {
+        width: 40px;
+    }
+
+    h1, h2 {
+        font-family: "bd-supper", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .btn {
+        font-family: futura-pt, sans-serif;
+        font-style: normal;
+        font-size: 100;
+        color: #000;
+        background-color: #F7E7E1;
+        border-color: #000;
+        border-radius: 19px;
+    }
+
+        /* Adding padding to the different sections */
+
+        .graphic-design p {
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+        
+        .videography p {
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+    
+        .photography p {
+            padding-left: 4rem;
+            padding-right: 4rem;
+        }
+
+        /* Making the h2 in About section center */
+
+        .aboutme h2 {
+            justify-content: center;
+        }
+
+     /* Styling the footer */
+    
+     footer {
+        padding: 1.5rem;
+        margin-top: 2rem;
+        background-color: #FBD6EA;
+    }
+    
+    footer .row div {
+        background-color: #FBD6EA;
+    }
+    
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer-links a {
+        text-decoration: none;
+        text-transform: capitalize;
+        color: #000;
+        margin-top: .5rem;
+    }
+    
+    .social-icons a {
+        margin-top: 3rem;
+        text-decoration: none;
+    }
+    
+    footer h4 {
+        font-family: futura-pt, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    footer a {
+        font-family: futura-pt, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        
+    }
+
+    footer .copyright p {
+        font-family: futura-pt, sans-serif;
+        font-style: normal;
+        font-size: 7;
+    }
+
+    footer .container {
+        background-color: #FBD6EA;
+    }
+
+    .about-me h2 {
+        align-items: center;
+    }
+
+    .contact .btn {
+        font-family: futura-pt, sans-serif;
+        font-style: normal;
+        font-size: 100;
+        color: #000;
+        background-color: #F7E7E1;
+        border-color: #000;
+        border-radius: 19px;
+    }
+
+    /* .videog {
+        display: flex;
+    }
+
+    .videog {
+        flex-direction: column;
+          }
+    } */
 
 /***** Tablet Styles *****/
 
 @media screen and (min-width: 768px) {
-    
+    .vid-content .text-center {
+        order: -1;
+    }
+
+    .vid-image {
+        order: 2;
+    }
 }
 
 
@@ -36,17 +196,31 @@
         display: flex;
         flex-wrap: wrap;
     }
-    
-    
-    h1, h2 {
-        font-family: "bd-supper", sans-serif;
-        font-weight: 700;
-        font-style: normal;
+
+    /* Adding padding to the different sections */
+
+    .graphic-design p {
+        padding-left: 4rem;
+        padding-right: 4rem;
     }
+    
+    .videography p {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .photography p {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    
+   
     
     .photo-image {
         padding-left: 0;
     }
+
+    /* Styling the footer */
     
     footer {
         padding: 1.5rem;
@@ -70,6 +244,7 @@
     }
     
     .social-icons a {
+        margin-top: 3rem;
         text-decoration: none;
     }
     
@@ -86,8 +261,29 @@
         
     }
 
-    footer .copyright {
+    footer .copyright p {
+        font-family: futura-pt, sans-serif;
+        font-style: normal;
         font-size: 7;
+    }
+
+    footer .container {
+        background-color: #FBD6EA;
+    }
+
+    .btn {
+        font-family: futura-pt, sans-serif;
+        font-style: normal;
+        font-size: 100;
+        color: #000;
+        background-color: #F7E7E1;
+        border-color: #000;
+        border-radius: 15px;
+    }
+
+    .carousel-section {
+        width: 70%;
+        margin: 0 auto;
     }
 
 }

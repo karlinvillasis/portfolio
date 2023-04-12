@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
   
     <!-- Own styles -->
-    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/main.css">
    
     <!-- Bootstrap JS -->
     <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
@@ -66,11 +66,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <img src="images/about-title.png" alt="about title">
-                                <h2>Who am I?</h2>
+                        <img src="images/about-title.png" alt="about title" class="img-fluid">
                                 <div class="about-image">
                                 <img class="img-fluid" src="images/about-karlin.png" alt="photo of karlin villasis">
                     <div class="col">
+                      <h2>Who am I?</h2>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                                 </p>
@@ -99,36 +99,36 @@
 
      
     </main>
-<!-- Footer -->
-    <footer>
-        <div kv-logo>
-            <img src="images/kv-logo-blue.png" alt="kv logo blue" width="190">
-        </div>
-        <!-- Footer Links -->
-        <p>	&#169; 2023 Karlin Villasis. All Rights Reserved.</p>
-        <div class="footer-links">
-            <a href="index.html">HOME</a>
-            <a href="about">ABOUT</a>
-            <a href="portfolio.html">PORTFOLIO</a>
-            <a href="contact.html">CONTACT</a>
-        </div>
-<!-- Social Media Icons -->
-        <div class="socials">
-            <h3>FOLLOW ME ON SOCIAL MEDIA</h3>
-            <div class="social-icons">
-            <a href="https://www.instagram.com">
-                <img src="images/ig-icon.png" alt="instagram icon" width="100">
-            </a>
-            <a href="https://www.twitter.com">
-                <img src="images/tw-icon.png" alt="twitter icon" width="100">
-            </a>
-            <a href="https://www.facebook.com">
-                <img src="images/fb-icon.png" alt="facebook icon" width="100">
-            </a>
-          </div>
+<!-- Footer Section -->
+<footer class="container">
+  <div class="row">
+      <div class="kv-logo col-md-4">
+          <img src="images/kv-logo-blue.png" alt="kv logo blue" width="190">
+          <p class="copyright">	&#169; 2023 Karlin Villasis. All Rights Reserved.</p>
+      </div>
+      <div class="footer-links col-md-4">
+          <a href="index.html">HOME</a>
+          <a href="about.html">ABOUT</a>
+          <a href="portfolio.html">PORTFOLIO</a>
+          <a href="contact.html">CONTACT</a>
+      </div>
 
-        </div>
-    </footer>
+      <div class="socials col-md-4 d-flex flex-column align-items-center">
+          <h4>FOLLOW ME ON SOCIAL MEDIA</h4>
+          <div class="social-icons">
+              <a href="https://www.instagram.com">
+                  <img src="images/ig-icon.png" alt="instagram icon" width="70">
+              </a>
+              <a href="https://www.twitter.com">
+                  <img src="images/tw-icon.png" alt="twitter icon" width="70">
+              </a>
+              <a href="https://www.facebook.com">
+                  <img src="images/fb-icon.png" alt="facebook icon" width="70">
+              </a>
+          </div>
+      </div>
+  </div>
+</footer>
     
 </body>
 </html>
