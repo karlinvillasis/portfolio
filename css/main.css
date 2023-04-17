@@ -1,6 +1,7 @@
 body {
     background-color: #FFFBFB;
 }
+/* Mobile first styling */
 
 /* Styling the search button */
 
@@ -21,6 +22,39 @@ body {
         width: 24px;
         height: 24px;
     }
+
+    /* Styling the navbar */
+
+
+    .navbar {
+        background-color: #F7E7E1;
+        font-family: "bd-supper", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .nav-item {
+        justify-items: center;
+        width: 100px;
+        transition: width 1s ease 0s;
+    }
+
+    .nav-item:hover {
+        text-decoration: underline;
+        width: 200px;
+    }
+
+    
+
+    .search-bar {
+        background-color:#fff ;
+    }
+
+    .navbar li {
+        align-self: center;
+    }
+
+
 
     /* Styling the hero image */
     .banner {
@@ -61,22 +95,41 @@ body {
         .graphic-design p {
             padding-left: 1.5rem;
             padding-right: 1.5rem;
+            padding-top: 0.5rem;
+        }
+
+        .graphic-design h2 {
+            padding-top: 1.2rem;
         }
         
         .videography p {
             padding-left: 1.5rem;
             padding-right: 1.5rem;
+            padding-top: 0.5rem;
+        }
+
+        .videography h2 {
+            padding-top: 1.2rem;
         }
     
         .photography p {
-            padding-left: 4rem;
-            padding-right: 4rem;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            padding-top: 0.5rem;
+        }
+
+        .photography h2 {
+            padding-top: 1.2rem;
         }
 
         /* Making the h2 in About section center */
 
         .aboutme h2 {
             justify-content: center;
+        }
+
+        .storytelling p {
+            padding-top: 1rem;
         }
 
      /* Styling the footer */
@@ -145,14 +198,7 @@ body {
         border-radius: 19px;
     }
 
-    /* .videog {
-        display: flex;
-    }
 
-    .videog {
-        flex-direction: column;
-          }
-    } */
 
 /***** Tablet Styles *****/
 
@@ -220,6 +266,65 @@ body {
         padding-left: 0;
     }
 
+    /* Styling portfolio */
+
+    .vidframe {
+        width: 50%;
+    }
+
+    /* Styling Contact Page */
+
+
+
+    .message img {
+        align-content: center;
+    }
+
+    .message-text img {
+        padding-left: 5rem;
+    }
+
+    .message-image {
+        align-content: center; 
+        padding-left: 7.5rem;
+    }
+
+    .message-me p {
+        /* justify-items: center; */
+        margin: 4rem;
+        padding-right: 6.5rem;
+        padding-left: 1.5rem;
+
+    }
+
+    .contact {
+        margin-left: 22rem;
+    }
+
+    .contact h3 {
+        font-family: "bd-supper", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+
+    }
+
+    /* Styling About Me page */
+    .about-me {
+        padding-left: 24rem;
+    }
+
+    .about-me p {
+        margin-right: 19rem;
+    }
+
+    .about-me h2 {
+        margin-left: 15rem;
+    }
+
+    .about-text {
+        padding-left: 4rem;
+    }
+
     /* Styling the footer */
     
     footer {
@@ -241,6 +346,26 @@ body {
         text-transform: capitalize;
         color: #000;
         margin-top: .5rem;
+    }
+
+    .btn {
+        font-family: futura-pt, sans-serif;
+        font-style: normal;
+        font-size: 100;
+        color: #000;
+        background-color: #F7E7E1;
+        border-color: #000;
+        border-radius: 15px;
+    }
+
+    .carousel-section {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .about-me {
+        display: flex;
+        flex-direction: row;
     }
     
     .social-icons a {
@@ -271,19 +396,7 @@ body {
         background-color: #FBD6EA;
     }
 
-    .btn {
-        font-family: futura-pt, sans-serif;
-        font-style: normal;
-        font-size: 100;
-        color: #000;
-        background-color: #F7E7E1;
-        border-color: #000;
-        border-radius: 15px;
-    }
 
-    .carousel-section {
-        width: 70%;
-        margin: 0 auto;
-    }
+    
 
 }
